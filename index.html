@@ -6,12 +6,27 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>בריכת התלמידים</title>
-  <script type="module" crossorigin src="/assets/index-f3fe7de0.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QT380CP9ZN"></script>
+  <script>
+    function gtag() { dataLayer.push(arguments); }
+    setTimeout(() => {
+      gtag('js', new Date());
+    }, 1000);
+    setTimeout(() => {
+      gtag('config', 'G-QT380CP9ZN');
+    }, 1000);
+
+    function gaSendwhatsapp() {
+      if (window.innerWidth > 768) gtag("event", "desktop_studentsPool_sendWhatsapp");
+    }
+  </script>
+  <script type="module" crossorigin src="/assets/index-d8013573.js"></script>
   <link rel="stylesheet" href="/assets/index-46d1c567.css">
 </head>
 
 <body>
   <div id="root"></div>
+
   
 </body>
 
